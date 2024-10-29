@@ -1,5 +1,13 @@
 ---
+# Banner
+banner:
+  title: "Fabrticant de luminaires LED"
+  content: "Depuis 2012, ODELI conçoit et fabrique en France des luminaires LED sur mesure."
+  image: "images/EPFL Odeli.jpg"
+
 # Features
+features:
+  
   - title: "Fabriant de luminaires LED"
     image: "images/EPFL Odeli.jpg"
     content: "Depuis 2012, ODELI conçoit et fabrique en France des luminaires LED sur mesure."
@@ -9,6 +17,6 @@
       - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
     button:
       enable: true
-      label: "En savoir plus"
+      label: "Découvrez nos réalisations"
       link: "https://github.com/zeon-studio/hugoplate"
 ---
