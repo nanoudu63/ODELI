@@ -1,9 +1,9 @@
 ---
 title: "Services"
 # meta title
-meta_title: "Services Odeli"
+meta_title: "Services"
 # meta description
-description: "This is meta description"
+description: "Découvrez nos domaines d'expertise"
 # save as draft
 draft: false
 ---
