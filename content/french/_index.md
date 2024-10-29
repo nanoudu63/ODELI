@@ -4,7 +4,6 @@ banner:
   title: "Fabrticant de luminaires LED"
   content: "Depuis 2012, ODELI conçoit et fabrique en France des luminaires LED sur mesure."
   image: "images/EPFL Odeli.jpg"
-
 # Features
 features:
     - title: "Fabrticant de luminaires LED"
