@@ -2,32 +2,32 @@
 
 # main menu
 [[main]]
-name = "Home"
+name = "Accueil"
 url = "/"
 weight = 1
 
 [[main]]
-name = "About"
+name = "Expertise"
 url = "/about"
 weight = 2
 
 [[main]]
-name = "Elements"
+name = "Réalisations"
 url = "/elements"
 weight = 3
 
 [[main]]
 weight = 4
-name = "Pages"
+name = "Engagements RSE"
 
 [[main]]
 parent = "Pages"
-name = "Blog"
+name = "Social"
 url = "/blog"
 
 [[main]]
 parent = "Pages"
-name = "Contact"
+name = "Environnemental"
 url = "/contact"
 
 [[main]]
@@ -48,12 +48,12 @@ url = "/404"
 
 # footer menu
 [[footer]]
-name = "About"
+name = "Contact"
 url = "/about"
 weight = 1
 
 [[footer]]
-name = "Elements"
+name = "Mentions légales"
 url = "/elements"
 weight = 2
 
@@ -61,3 +61,8 @@ weight = 2
 name = "Privacy Policy"
 url = "/privacy-policy"
 weight = 3
+
+[[footer]]
+name = "Cookie Policy"
+url = "/privacy-policy"
+weight = 4
