@@ -7,15 +7,14 @@ banner:
 
 # Features
 features:
-    - title: "Fabrticant de luminaires LED"
+  - title: "Fabrticant de luminaires LED"
     image: "images/EPFL Odeli.jpg"
     content: "Depuis 2012, ODELI conçoit et fabrique en France des luminaires LED sur mesure."
     bulletpoints:
-      - Flexibilité
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - Ajouter texte
+      - Ajouter texte 
     button:
-      enable: true
+      enable: false
       label: "Nos réalisations"
       link: "https://github.com/zeon-studio/hugoplate"
 ---
