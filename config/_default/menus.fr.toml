@@ -1,4 +1,4 @@
-############# English navigation ##############
+############# French navigation ##############
 
 # main menu
 [[main]]
@@ -17,6 +17,21 @@ url = "/Réalisations"
 weight = 3
 
 [[main]]
+parent = "Réalisations"
+name = "Réalisations"
+url = "/Réalisations"
+
+[[main]]
+parent = "Réalisations"
+name = "Réalisations"
+url = "/Réalisations"
+
+[[main]]
+parent = "Réalisations"
+name = "Réalisations"
+url = "/Réalisations"
+
+[[main]]
 weight = 4
 name = "A propos de nous"
 
@@ -28,7 +43,7 @@ url = "/about"
 [[main]]
 parent = "A propos de nous"
 name = "Durabilité"
-url = blog/
+url = "/blog"
 
 [[main]]
 parent = "A propos de nous"
