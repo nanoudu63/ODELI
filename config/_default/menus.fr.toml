@@ -13,7 +13,7 @@ weight = 2
 
 [[main]]
 name = "Réalisations"
-url = "/réalisations"
+url = "/realisations"
 weight = 3
 
 [[main]]
