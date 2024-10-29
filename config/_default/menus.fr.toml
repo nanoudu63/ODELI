@@ -12,9 +12,8 @@ url = "/Services"
 weight = 2
 
 [[main]]
-name = "Réalisations"
-url = "/Réalisations"
 weight = 3
+name = "Réalisations"
 
 [[main]]
 parent = "Réalisations"
