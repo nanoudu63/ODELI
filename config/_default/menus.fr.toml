@@ -17,17 +17,17 @@ name = "Réalisations"
 
 [[main]]
 parent = "Réalisations"
-name = "Réalisations"
+name = "Interieur"
 url = "/Réalisations"
 
 [[main]]
 parent = "Réalisations"
-name = "Réalisations"
+name = "Architectural"
 url = "/Réalisations"
 
 [[main]]
 parent = "Réalisations"
-name = "Réalisations"
+name = "Equipements Sportifs & Culturels"
 url = "/Réalisations"
 
 [[main]]
