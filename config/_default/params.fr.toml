@@ -2,7 +2,7 @@
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
 favicon = "images/favicon ODELI.png"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = "images/assets/images/ODELI_logo.png"
+logo = "images/ODELI_logo.png"
 logo_darkmode = "images/ODELI_logo Darkmode.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
@@ -11,7 +11,7 @@ logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "LogoODELI"
+logo_text = "ODELI"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
