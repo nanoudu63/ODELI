@@ -8,12 +8,12 @@ weight = 1
 
 [[main]]
 name = "Services"
-url = "/Services"
+url = "/services"
 weight = 2
 
 [[main]]
 name = "Réalisations"
-url = "/Réalisations"
+url = "/réalisations"
 weight = 3
 
 [[main]]
