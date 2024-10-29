@@ -7,7 +7,7 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "Expertise"
+name = "Services"
 url = "/about"
 weight = 2
 
@@ -18,21 +18,21 @@ weight = 3
 
 [[main]]
 weight = 4
-name = "Engagements RSE"
+name = "A propos de nous"
 
 [[main]]
-parent = "Pages"
-name = "Social"
+parent = "A propos de nous"
+name = "Histoire"
 url = "/blog"
 
 [[main]]
-parent = "Pages"
-name = "Environnemental"
+parent = "A propos de nous"
+name = "Durabilité"
 url = "/contact"
 
 [[main]]
-parent = "Pages"
-name = "Authors"
+parent = "A propos de nous"
+name = "Contacts"
 url = "/authors"
 
 [[main]]
