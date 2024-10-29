@@ -1,30 +1,26 @@
 ---
-title: "Elements"
+title: "Réalisations"
 # meta title
-meta_title: ""
+meta_title: "Réalisations"
 # meta description
 description: "This is meta description"
 # save as draft
 draft: false
 ---
 
-{{< toc >}}
-
-Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
+## Réalisations
 
 <hr>
+
+### Intérieur
+### Slider
+
+{{< slider dir="images/gallery" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+
+<hr>
+
+
+
 
 ### Emphasis
 
@@ -237,12 +233,3 @@ flowchart TD
 
 <hr>
 
-### Youtube video
-
-{{< youtube ResipmZmpDU >}}
-
-<hr>
-
-### Custom video
-
-{{< video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}
