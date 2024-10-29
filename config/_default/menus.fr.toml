@@ -23,46 +23,33 @@ name = "A propos de nous"
 [[main]]
 parent = "A propos de nous"
 name = "Histoire"
-url = "/blog"
+url = "/authors
 
 [[main]]
 parent = "A propos de nous"
 name = "Durabilité"
-url = "/contact"
+url = "/authors"
 
 [[main]]
 parent = "A propos de nous"
 name = "Contacts"
-url = "/authors"
+url = "/contact"
 
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
 
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
 
 
 # footer menu
 [[footer]]
-name = "Contact"
+name = "Nous contacter"
 url = "/about"
 weight = 1
 
 [[footer]]
 name = "Mentions légales"
-url = "/elements"
-weight = 2
-
-[[footer]]
-name = "Privacy Policy"
 url = "/privacy-policy"
 weight = 3
 
 [[footer]]
-name = "Cookie Policy"
+name = "Cookies"
 url = "/privacy-policy"
 weight = 4
