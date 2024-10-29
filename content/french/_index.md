@@ -4,6 +4,7 @@ banner:
   title: "Fabrticant de luminaires LED"
   content: "Depuis 2012, ODELI conçoit et fabrique en France des luminaires LED sur mesure."
   image: "images/EPFL Odeli.jpg"
+
 # Features
 features:
     - title: "Fabrticant de luminaires LED"
@@ -17,7 +18,7 @@ features:
       enable: true
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
-
+features:
   - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
     image: "/images/service-3.png"
     content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
