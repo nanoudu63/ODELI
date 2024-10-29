@@ -8,27 +8,13 @@ weight = 1
 
 [[main]]
 name = "Services"
-url = "/Services"
+url = "/Page Services"
 weight = 2
 
 [[main]]
-weight = 3
 name = "Réalisations"
-
-[[main]]
-parent = "Réalisations"
-name = "Interieur"
 url = "/Réalisations"
-
-[[main]]
-parent = "Réalisations"
-name = "Architectural"
-url = "/Réalisations"
-
-[[main]]
-parent = "Réalisations"
-name = "Equipements Sportifs & Culturels"
-url = "/Réalisations"
+weight = 3
 
 [[main]]
 weight = 4
@@ -48,7 +34,6 @@ url = "/blog"
 parent = "A propos de nous"
 name = "Contacts"
 url = "/contact"
-
 
 # footer menu
 [[footer]]
