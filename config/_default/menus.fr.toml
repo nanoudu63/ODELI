@@ -8,12 +8,12 @@ weight = 1
 
 [[main]]
 name = "Services"
-url = "/about"
+url = "/Services"
 weight = 2
 
 [[main]]
 name = "Réalisations"
-url = "/elements"
+url = "/Réalisations"
 weight = 3
 
 [[main]]
@@ -23,17 +23,17 @@ name = "A propos de nous"
 [[main]]
 parent = "A propos de nous"
 name = "Histoire"
-url = "/blog"
+url = "/about"
 
 [[main]]
 parent = "A propos de nous"
 name = "Durabilité"
-url = "/contact"
+url = blog/
 
 [[main]]
-parent = "A propos"
+parent = "A propos de nous"
 name = "Contacts"
-url = "/authors"
+url = "/contact"
 
 
 # footer menu
