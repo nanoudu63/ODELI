@@ -31,11 +31,9 @@ name = "Durabilité"
 url = "/contact"
 
 [[main]]
-parent = "A propos de nous"
+parent = "A propos"
 name = "Contacts"
 url = "/authors"
-
-
 
 
 # footer menu
