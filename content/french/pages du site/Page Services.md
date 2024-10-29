@@ -1,7 +1,7 @@
 ---
-title: "Elements"
+title: "Services"
 # meta title
-meta_title: ""
+meta_title: "Services Odeli"
 # meta description
 description: "This is meta description"
 # save as draft
@@ -10,31 +10,49 @@ draft: false
 
 {{< toc >}}
 
-Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
+### Notre savoir-faire
 
-# Heading 1
+**Flexibilité** et **réactivité** conditionnent notre démarche.
 
-## Heading 2
+Nous maîtrisons **100% des composants** de nos luminaires, et privilégions **les circuits courts**.
 
-### Heading 3
+Tous nos luminaires sont conçus et fabriqués en Auvergne.
 
-#### Heading 4
+**Nos domaines d’expertise :** 
+Mécanique, Optique, Thermique, Electronique, Connectivité, Programmation, Production.
 
-##### Heading 5
+En partant de votre cahier des charges, chaque projet devient un cas unique
 
-###### Heading 6
+Nous collaborons avec un large réseau de sous-traitants spécialisés dans différents domaines:
+ Usinage, Tôlerie, Anodisation, Fonderie, Verrerie, Assemblage Electronique...
 
 <hr>
 
-### Emphasis
+### Nos services
 
-The emphasis, aka italics, with _asterisks_ or _underscores_.
+{{< accordion "Etude" >}}
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
+- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit amet consectetur
 
-The combined emphasis with **asterisks and _underscores_**.
+{{< /accordion >}}
 
-Strike through uses two tildes. ~~Scratch this.~~
+{{< accordion "Conception" >}}
+
+- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit amet consectetur
+
+{{< /accordion >}}
+
+{{< accordion "Fabrication" >}}
+
+- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit amet consectetur
+
+{{< /accordion >}}
 
 <hr>
 
