@@ -1,12 +1,12 @@
 ---
 # Banner
 banner:
-  title: "Fabricant de luminaires LED"
-  content: "Depuis 2012, ODELI conçoit et fabrique des luminaires LED sur mesure en FRance."
+  title: "LED Lighting Manufacturer"
+  content: "Since 2012, ODELI design and manufacture in France custom LED lights. We offer you today the best of our knowhow through a range of customizable products. From needs analysis to the supply of innovative lighting systems, we support you throughout your project."
   image: "images/EPFL Odeli.jpg"
   button:
     enable: true
-    label: "Get Started For Free"
+    label: "Contact us now"
     link: "https://github.com/zeon-studio/hugoplate"
 
 # Features
