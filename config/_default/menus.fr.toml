@@ -23,17 +23,17 @@ name = "A propos de nous"
 [[main]]
 parent = "A propos de nous"
 name = "Histoire"
-url = "/authors
+url = "/blog"
 
 [[main]]
 parent = "A propos de nous"
 name = "Durabilité"
-url = "/authors"
+url = "/contact"
 
 [[main]]
 parent = "A propos de nous"
 name = "Contacts"
-url = "/contact"
+url = "/authors"
 
 
 
