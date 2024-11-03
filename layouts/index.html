@@ -1,14 +1,14 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section pt-14 relative overflow-hidden"> <!-- Ajouter "overflow-hidden" -->
-      <div class="container-fluid">
-        <div class="row justify-center">
-          <div class="col-12 mb-8 text-center relative z-10"> <!-- Ajouter "relative z-10" pour le texte -->
-            <h1 class="mb-4 text-h3 lg:text-h1">
+    <section class="section pt-20 relative overflow-hidden pb-20 flex items-center justify-center"> <!-- style="min-height: 70vh;" Augmenter la hauteur de la section -->
+      <div class="container-fluid h-full flex items-center justify-center">
+        <div class="row h-full items-center justify-center">
+          <div class="col-10 col-md-0 text-center z-10">
+            <h1 class="text-white font-bold" style="font-size: clamp(1.5rem, 4vw, 3rem); white-space: nowrap;">
               {{ .title | markdownify }}
             </h1>
-            <p class="mb-8">
+            <p class="mb-0 text-white" style="font-size: clamp(1rem, 2vw, 1.5rem);">
               {{ .content | markdownify }}
             </p>
             {{ with .button }}
@@ -18,7 +18,8 @@
                   href="{{ .link | absURL }}"
                   {{ if strings.HasPrefix .link `http` }}
                     target="_blank" rel="noopener"
-                  {{ end }}>
+                  {{ end }}
+                  style="background-color: rgba(0, 0, 0, 0.2); color: white; border: 1px solid white; padding: 10px 26px; border-radius: 9px;">
                   {{ .label }}
                   <i class="fa fa-arrow-right pl-2"></i>
                 </a>
@@ -26,8 +27,8 @@
             {{ end }}
           </div>
           <div class="col-12">
-            <div class="absolute inset-0"> <!-- Garder la div avec position absolute -->
-              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "w-full h-auto" "DisplayXL" "800x" ) }} <!-- Utiliser h-auto -->
+            <div class="absolute inset-0">
+              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "w-full h-auto" "DisplayXL" "1920x" ) }} <!-- Utiliser h-auto -->
             </div>
           </div>
         </div>
@@ -46,7 +47,7 @@
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
-            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "5200x" "DisplayLG" "4250x" "DisplayMD" "3600x") }}
           </div>
           <div
             class="{{ if not (modBool $i 2) }}
